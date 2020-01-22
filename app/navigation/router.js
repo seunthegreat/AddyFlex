@@ -6,14 +6,18 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import {colors} from '../styles/base'
 
+//All Home related screens are imported here
 import Dashboard from '../screens/Dashboard/Main'
 
+//All Account related screens are imported here
 import Account from '../screens/Account/Main'
 import AccountDetails from '../screens/Account/more'
 
+//All Trading  related screens are imported here
 import TradingViews from '../screens/Trade/Main'
 import DetailsScreen from '../screens/Trade/more'
 
+//All Tips and Financial related screens are imported here
 import AddyTips from '../screens/AddyTips/Main'
 import More from '../screens/AddyTips/more'
 
