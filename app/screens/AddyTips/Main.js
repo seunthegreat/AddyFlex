@@ -13,6 +13,8 @@ export default class Main extends Component {
     };
   }
 
+
+  //function to navigate screen and pass data item
   handleMore = (item) =>{
     const { navigate } = this.props.navigation
     navigate('Details', {tips: item})
