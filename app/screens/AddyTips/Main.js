@@ -25,7 +25,9 @@ export default class Main extends Component {
     return (
       <View style = {styles.container}>
         
-       
+         {/* <View style = {styles.smallBox}>
+                <Text style = {{paddingVertical: padding.md, color: 'white'}}>Increase your earning potential</Text>
+         </View> */}
 
          <FlatList
                 data={tipList}
