@@ -17,27 +17,27 @@ export default class investments extends Component {
 
     
       <View style = {styles.container}>
-        <Text style = {{color:'white',alignSelf:'center'}}> Minifx </Text>
+        <Text style = {{color:'white',alignSelf:'center' ,fontWeight: '500', fontSize: font.md}}> Minifx </Text>
         <Button title = "Make Investment" onClick = {() =>{alert("MiniFx Investment")}}/>
       </View>
 
       <View style = {styles.container}>
-        <Text style = {{color:'white',alignSelf:'center'}}> CrystalFx </Text>
+        <Text style = {{color:'white',alignSelf:'center' ,fontWeight: '500', fontSize: font.md}}> CrystalFx </Text>
         <Button title = "Make Investment" onClick = {() =>{alert("CrystalFx Investment")}}/>
       </View>
 
       <View style = {styles.container}>
-        <Text style = {{color:'white',alignSelf:'center'}}> RubyFx </Text>
+        <Text style = {{color:'white',alignSelf:'center', fontWeight: '500', fontSize: font.md}}> RubyFx </Text>
         <Button title = "Make Investment" onClick = {() =>{alert("Ruby Investment")}}/>
       </View>
 
       <View style = {styles.container}>
-        <Text style = {{color:'white',alignSelf:'center'}}> GoldenFx </Text>
+        <Text style = {{color:'white',alignSelf:'center', fontWeight: '500', fontSize: font.md}}> GoldenFx </Text>
         <Button title = "Make Investment" onClick = {() =>{alert("GoldenFx Investment")}}/>
       </View>
 
       <View style = {styles.container}>
-        <Text style = {{color:'white',alignSelf:'center'}}> RoyalFx </Text>
+        <Text style = {{color:'white',alignSelf:'center', fontWeight: '500', fontSize: font.md}}> RoyalFx </Text>
         <Button title = "Make Investment" onClick = {() =>{alert("RoyalFx Investment")}}/>
       </View>
 
